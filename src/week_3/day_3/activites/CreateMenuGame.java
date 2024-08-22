@@ -27,7 +27,7 @@ public class CreateMenuGame {
         System.out.println("3. Exit");
         System.out.print("Please select an option: ");
         option = input.nextInt();
-
+//
         if ( option == 1 ) {
             System.out.print("Please enter your firstName: ");
             firstName = input.next();
