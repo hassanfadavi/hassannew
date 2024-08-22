@@ -18,7 +18,7 @@ public class WorkingWithScanner {
         * */
 
         // Objects
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
 
         // Variables
 //        String firstName = "";
@@ -42,7 +42,7 @@ public class WorkingWithScanner {
 //        System.out.println(  "You entered: " + firstName );
 //        System.out.println(  "Your lastName is: " + lastName );
 
-        System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
+     //   System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
 
 
 //        System.out.print("Please enter your message: ");
@@ -51,7 +51,7 @@ public class WorkingWithScanner {
 //        System.out.println( "The message is: " + message );
 
 
-        System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
+     //   System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
 
 //
 //        System.out.print("Enter the first number: ");
@@ -67,7 +67,7 @@ public class WorkingWithScanner {
 //        // nextLong();
 
 
-        System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
+      //  System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
 
 //        System.out.print("Enter the first number: ");
 //        doubleNumberOne = input.nextDouble();
@@ -78,7 +78,7 @@ public class WorkingWithScanner {
 //        System.out.println( "The result of " + doubleNumberOne + " + " + doubleNumberTwo + " = " + ( doubleNumberOne + doubleNumberTwo ) );
 
 
-        System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
+       // System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
 
 
 //        System.out.print("Is light on: ");
@@ -87,7 +87,41 @@ public class WorkingWithScanner {
 //        System.out.println( "Light status: " + isLightOn );
 
 
-        System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
+       // System.out.println( " * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  * * * * * * * * *  " );
+
+
+
+
+
+//        String firstName= "";
+//        String lastName="";
+//
+//
+//        System.out.print("please enter your firstName:");
+//        firstName=test.next();
+//
+//        System.out.print("please enter your lastName:");
+//        lastName=test.next();
+//
+//
+//        System.out.println("you entered: "+ firstName);
+//        System.out.println("you entered: "+ lastName);
+
+
+        Scanner test=new Scanner(System.in);
+
+       int NumOne;
+       int NumTwo;
+
+        System.out.print("please enter your firstNumber:");
+        NumOne=test.nextInt() ;
+
+        System.out.print("please enter your secondNumber:");
+        NumTwo=test.nextInt() ;
+
+        System.out.println("the result of " + NumOne + " + " + NumTwo + " = " + (NumOne+NumTwo));
+
+
 
 
 
