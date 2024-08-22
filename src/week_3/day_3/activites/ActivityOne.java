@@ -15,7 +15,7 @@ public class ActivityOne {
 
     public static void main(String[] args) {
 
-
+//
         int intNumber = 15;
         double doubleNumber;
 
